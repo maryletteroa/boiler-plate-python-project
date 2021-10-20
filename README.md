@@ -30,7 +30,9 @@ pipenv run pre-commit install -t pre-push
 pipenv shell
 ```
 
-Reference: 
+Reference:
+
 [How to set up a perfect Python project](https://sourcery.ai/blog/python-best-practices)
+
 [ sourcery-ai/
 python-best-practices-cookiecutter](https://github.com/sourcery-ai/python-best-practices-cookiecutter)
