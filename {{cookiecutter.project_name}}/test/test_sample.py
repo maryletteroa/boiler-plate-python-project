@@ -1,2 +1,5 @@
+import context
+from sample_module.sample import *
+
 def test_inc_one_by_one():
-    assert inc(3) == 5
+    assert inc_by_one(3) == 4

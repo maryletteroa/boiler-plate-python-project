@@ -30,6 +30,10 @@ pipenv run pre-commit install -t pre-push
 pipenv shell
 ```
 
+# Set up
+
+Point `.coveragerc` to module 
+
 Reference:
 
 [How to set up a perfect Python project](https://sourcery.ai/blog/python-best-practices)

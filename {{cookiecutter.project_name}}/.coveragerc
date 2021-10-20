@@ -1,5 +1,5 @@
 [run]
-source = project
+source = sample_module
 
 [report]
 exclude_lines =
