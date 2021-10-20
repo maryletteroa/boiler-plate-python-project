@@ -18,9 +18,6 @@ cd <repo_name>
 # Initialise git repo
 git init
 
-# Create a virtual environment
-pipenv shell
-
 # Install dependencies
 pipenv install --dev
 
@@ -28,6 +25,11 @@ pipenv install --dev
 pipenv run pre-commit install -t pre-commit
 pipenv run pre-commit install -t pre-push
 
+# Access virtual environment
+pipenv shell
+
+# Location of virtual environment
+pipenv --venv
 
 ```
 
